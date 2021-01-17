@@ -1,0 +1,115 @@
+.obstruction{
+  animation-name: obstructionAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes obstructionAnimation {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(37, 18, 18);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(15, 36, 13);
+  }
+
+  100% {
+    transform: scale(1.0);
+    background-color: rgb(9, 12, 34);
+  }
+}
+
+
+.visited{
+  animation-name: visitedAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(255, 0, 0);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(0, 26, 255);
+  }
+
+  100% {
+    transform: scale(1.0);
+    background-color: green;
+  }
+}
+
+.path{
+  animation-name: pathAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes pathAnimation {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(33, 119, 177);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(33, 119, 177);
+  }
+
+  100% {
+    transform: scale(1.0);
+    background-color: rgb(66,133,244);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  table
+  {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  td,th{
+    width:25px;
+    height:25px;
+    border:1px solid gray;
+    border-collapse: collapse;
+  }
+
+  .unvisited{
+    width:25px;
+    height:25px;
+    background-color: white;
+    border:1px solid gray;
+    border-collapse: collapse;
+  }
